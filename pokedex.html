@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéAPP</title>
+    <link rel="stylesheet" href="css/pookedex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="foto">
+            <img src="img/pokeapp.png" alt="pokemon" width="300" >
+            <h2>Busca tu Pokémon favorito</h2>
+        </div>
+        <div class="contenedor">
+            <form action="" class="formulario">
+                <input type="text" placeholder="Nombre del Pokémon" id="pokeName">
+                <button type="button"  class="btn" id="btnBuscar" onclick="fechtPokemon()">Buscar Pokémon</button>
+            </form>
+            
+            <div class="pokeF">
+                <img src="img/pokeb.png" alt="" id="pokeFoto" width="150">
+            </div>
+           
+            <div id="idPoke" class="idPoke"></div>
+            <div id="nomPoke" class="nomPoke"></div>
+            <div id="infoPoke" class="infoPoke"></div>
+            <div id="tipoPoke" class="tipoPoke"></div>
+            <div id="atackPoke" class="atackPoke"></div>
+        </div>
+    </div>
+
+
+    <script src="js/pokedex.js"></script>
+</body>
+</html>
